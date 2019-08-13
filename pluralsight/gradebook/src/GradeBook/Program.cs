@@ -12,13 +12,12 @@ namespace GradeBook
             // double res = x + y;
             // Console.WriteLine($"{x} + {y} = {res}");
 
-            var numbers = new[] { 92.7, 90.3, 45.3 };
-            List <double> grades;
+            var grades = new List <double>() {56.1, 98.3, 83.0};
             var res = 0.0;
-            foreach(double number in numbers) {
+            foreach(double number in grades) {
                 res += number;
             }
-            System.Console.WriteLine(res);
+            System.Console.WriteLine(res / grades.Count);
 
             if (args.Length > 0) {
                 Console.WriteLine($"Hello, {args[0]}!");
