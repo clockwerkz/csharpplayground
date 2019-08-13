@@ -6,7 +6,8 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello, {args[0]}!");
+            string name = args.Length > 0 ? args[0] : "Default";
+            Console.WriteLine($"Hello, {name}!");
         }
     }
 }

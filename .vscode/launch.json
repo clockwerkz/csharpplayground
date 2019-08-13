@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/pluralsight/gradebook/src/GradeBook/bin/Debug/netcoreapp2.2/GradeBook.dll",
-            "args": [],
+            "args": ["Carlos", "Scott"],
             "cwd": "${workspaceFolder}/pluralsight/gradebook/src/GradeBook",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
