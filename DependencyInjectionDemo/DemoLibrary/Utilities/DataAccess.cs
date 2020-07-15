@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary.Utilities
 {
-    class DataAccess
+    class DataAccess : IDataAccess
     {
-        internal void SaveData(string name)
+        public void SaveData(string name)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine($"Saving { name }");
             Console.ResetColor();
         }
 
-        internal void LoadData()
+        public void LoadData()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Loading Data");

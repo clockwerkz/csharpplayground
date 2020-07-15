@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary.Utilities
 {
-    class Logger
+    class Logger : ILogger
     {
-        internal void Log(string message)
+        public void Log(string message)
         {
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
