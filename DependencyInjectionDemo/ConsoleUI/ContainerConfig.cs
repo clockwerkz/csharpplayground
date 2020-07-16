@@ -14,7 +14,7 @@ namespace ConsoleUI
         public static IContainer Configure()
         {
             var builder = new ContainerBuilder();
-
+            builder.RegisterType<Application>().As<IApplication>();
             builder.RegisterType<BusinessLogic>().As<IBusinessLogic>();
             builder.RegisterAssemblyTypes(Assembly.Load(nameof(DemoLibrary)))
                 .Where(t => t.Namespace.Contains("Utilities"))

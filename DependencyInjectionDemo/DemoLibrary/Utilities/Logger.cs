@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary.Utilities
 {
-    class Logger : ILogger
+    public class Logger : ILogger
     {
         public void Log(string message)
         {

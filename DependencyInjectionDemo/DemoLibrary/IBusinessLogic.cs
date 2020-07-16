@@ -1,4 +1,6 @@
-﻿namespace DemoLibrary
+﻿using DemoLibrary.Utilities;
+
+namespace DemoLibrary
 {
     public interface IBusinessLogic
     {

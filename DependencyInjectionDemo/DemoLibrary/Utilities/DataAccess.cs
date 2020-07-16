@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary.Utilities
 {
-    class DataAccess : IDataAccess
+    public class DataAccess : IDataAccess
     {
         public void SaveData(string name)
         {

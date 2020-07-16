@@ -1,6 +1,6 @@
 ﻿namespace DemoLibrary.Utilities
 {
-    interface IDataAccess
+    public interface IDataAccess
     {
         void LoadData();
         void SaveData(string name);

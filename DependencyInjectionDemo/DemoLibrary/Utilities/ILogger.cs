@@ -1,6 +1,6 @@
 ﻿namespace DemoLibrary.Utilities
 {
-    interface ILogger
+    public interface ILogger
     {
         void Log(string message);
     }
